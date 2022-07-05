@@ -1,4 +1,4 @@
-module github.com/arnodel/juju-third-party-client
+module github.com/juanmanuel-tirado/juju-third-party-client
 
 go 1.18
 
