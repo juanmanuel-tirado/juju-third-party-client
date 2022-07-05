@@ -214,5 +214,6 @@ func DeployCharm(conn api.Connection, args DeployCharmArgs) error {
 		Series:          resultOrigin.Series,
 		NumUnits:        args.NumUnits,
 		Cons:            args.Constraints,
+		CharmOrigin:     resultOrigin,
 	})
 }
